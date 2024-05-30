@@ -1,7 +1,5 @@
 # Plantilla Básica de Página para Cuentos
 
-![Portada](images/cover.png)
-
 ## Descripción
 
 Esta es una plantilla básica para una página web destinada a mostrar y gestionar cuentos. Está construida con HTML, CSS y JavaScript, proporcionando una interfaz sencilla y funcional para la visualización de cuentos.
@@ -15,10 +13,10 @@ Esta es una plantilla básica para una página web destinada a mostrar y gestion
 ## Capturas de Pantalla
 
 ### Página Principal
-![Página Principal](img/main.png)
+![Página Principal](MyStories/MyStories/img/Main.png)
 
 ### Detalle del Cuento
-![Ejemplo de presentacion](images/Actic.png)
+![Ejemplo de presentacion](MyStories/MyStories/img/Activ.png)
 
 
 
