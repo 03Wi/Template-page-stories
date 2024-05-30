@@ -1,0 +1,287 @@
+
+
+body{
+
+    color: rgb(236, 236, 243);
+    font-family: 'Almendra SC', serif;
+
+}
+div{
+    position: relative;
+}
+video{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+
+
+}
+
+h1{
+    background: black;
+
+    font-size: 60px;
+    text-align: center;
+    font-weight: 60;
+    mix-blend-mode: multiply ;
+}
+
+
+* {
+
+    font-family: 'Cinzel', serif;
+
+    text-transform: uppercase;
+    background-repeat: no-repeat;
+    background-image: url('../vista/imagenes/cuento-fondo.png');
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+
+}
+
+
+:root {
+    --color: #2596a0;
+
+}
+
+
+.contenedor {
+    display: flex;
+    height: 100vh;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+
+
+}
+.inicio{
+    position: relative;
+    top: 10;
+    left: 50%;
+    width: 10%;
+    height: 10%;
+
+}
+
+
+.btn {
+    position: relative;
+    padding: 20px 50px;
+    text-decoration: none;
+    color: rgb(88, 192, 192);
+    letter-spacing: 10px;
+    transition: all 0.6s ease;
+    top: -45vh;
+    left: -1%;
+}
+
+.btn-2 {
+    border: 3px solid;
+}
+
+.btn-2:hover {
+    background-color: rgb(24, 72, 21);
+    box-shadow: 0 0 20px var(--color);
+    border-color: var(--color);
+}
+
+.btn-2 span:nth-child(n) {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border: 3px solid;
+}
+
+.btn-2 span:nth-child(1) {
+    right: 10%;
+    top: -10px;
+    background-color: #fff;
+
+}
+
+.btn-2 span:nth-child(2) {
+    left: 10%;
+    bottom: -10px;
+}
+
+.btn-2:hover span:nth-child(1) {
+    right: 80%;
+    transform: rotate(90deg);
+    color: var(--color);
+    background-color: var(--color);
+}
+
+.btn-2:hover span:nth-child(2) {
+    left: 80%;
+    transform: rotate(90deg);
+    color: var(--color);
+}
+
+.btn-1 {
+    border: 3px solid;
+}
+
+.btn-1:hover {
+    background-color: rgb(122, 178, 19);
+    box-shadow: 0 0 20px var(--color);
+    border-color: var(--color);
+}
+
+.btn-1 span:nth-child(n) {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border: 3px solid;
+}
+
+.btn-1 span:nth-child(1) {
+    right: 10%;
+    top: -10px;
+    background-color: #fff;
+
+}
+
+.btn-1 span:nth-child(2) {
+    left: 10%;
+    bottom: -10px;
+}
+
+.btn-1:hover span:nth-child(1) {
+    right: 80%;
+    transform: rotate(90deg);
+    color: var(--color);
+    background-color: var(--color);
+}
+
+.btn-1:hover span:nth-child(2) {
+    left: 80%;
+    transform: rotate(90deg);
+    color: var(--color);
+}
+
+
+
+.tipo1{
+    width: 30%;
+    height: 3%;
+}
+img{
+    width:100% ;
+    height: 100%;
+}
+#imagen2{
+    position: relative;
+    top: -20vh;
+    left: 60%;
+}
+section{
+    display: flex;
+    width: 900px;
+    height: 1000px;
+}
+section img {
+    width: 0px;
+    flex-grow: 1 ;
+    object-fit: cover;
+    opacity: .6;
+    transition: 1s;
+}
+section img:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+
+}
+.tipo2{
+    width: 40%;
+    height: 20%;
+
+
+}
+#cuento01{
+    position: relative;
+    top: -20vh;
+    left: 60%;
+
+}
+#Sintítulo1{
+    position:relative;
+    top: 0;
+    left: 0;
+    width: 400%;
+    height: 400%;
+    object-fit: cover;
+
+
+}
+.gatoD{
+	width: 20%;
+	height: 25%;
+}
+img{
+	width: 50%;
+	height: 50%;
+	border: solid 1px;
+}
+#pos1{
+	position: absolute;
+	left: 50%;
+	top: 45%;
+}
+#pos2{
+	position: absolute;
+	left: 60%;
+	top: 45%;
+}
+#pos3{
+	position: absolute;
+	left: 70%;
+	top: 45%;
+}
+#pos4{
+	position: absolute;
+	left: 80%;
+	top: 45%;
+}
+#pos5{
+	position: absolute;
+	left: 50%;
+	top: 57%;
+}
+#pos6{
+	position: absolute;
+	left: 60%;
+	top: 57%;
+}
+#pos7{
+	position: absolute;
+	left: 70%;
+	top: 57%;
+}
+#pos8{
+	position: absolute;
+	left: 80%;
+	top: 57%;
+}
+#puntos{
+	width: 10%;
+	height: 10%;
+	font-size: 3vh;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	text-align: center;
+	background-color:lawngreen;
+	border: solid 3px rgb(26, 216, 216);
+	color: rgb(72, 184, 72);
+	position: absolute;
+	left: 65%;
+	top: 75%;
+}
