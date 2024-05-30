@@ -1,0 +1,152 @@
+
+body{
+  background-image: url("../img/BackGround.png");
+}
+
+.submenu{
+  background-image: url("../../MyStories/img/wood-325409_1280.jpg");
+  background-repeat: no-repeat;
+}
+
+.fig-cuadrado{
+  display: grid;
+  width: 100px;
+  height: 100px;
+  border-radius: 30px;
+  background-image: url("../img/fish_icon_main.gif");
+}
+.principal-content-container{
+
+}
+.principal-content{
+
+  max-width: 80%;
+  transition: margin-left 0.8s ease;
+  background-image: url("../img/FooterBack.jpg");
+  margin: 0 30px 30px 30px;
+}
+.principal-content:hover{
+  transition-duration: 1s;
+  width: 95%;
+  border-radius: 30px;
+}
+
+.principal-content:not(:hover) {
+  transition-duration: 1s;
+  margin-left: 20px;
+  width: 95%;
+  border-radius: 30px;
+}
+
+.principal-content.active {
+
+  margin-left: 250px; /* Valor para el desplazamiento a la derecha */
+}
+
+.principal-content-item {
+  /* Ajusta el z-index del contenido para que esté sobre el fondo */
+  position: relative;
+  display: flex;
+  z-index: 1;
+}
+
+.img-container {
+  margin-right: 20px;
+  flex: 0 0 auto;
+}
+
+.imgStories {
+  max-width: 100%;
+  max-height: 50vh;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+}
+#img-opacity{
+  opacity: 100%;
+  border-radius: 20px;
+}
+#img-opacityTwo{
+  opacity: 100%;
+  border-radius: 10px;
+}
+
+#img-opacityThree {
+  opacity: 100%;
+  border-radius: 10px;
+}
+
+.container-text {
+  flex: 1;
+  font-size: 25px;
+  height: 100%;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  background-image: url("../img/Fondo_page_principal.png");
+  border-radius: 70px 0 45px 0;
+  padding: 10px;
+  border: #b3d4fc 1px solid;
+  margin: 10px;
+}
+.animations{
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-height: inherit;
+  grid-gap: 10px;
+  margin: 10px;
+  border-radius: 20px;
+  padding: 10px;
+}
+h1 {
+  flex: 1;
+  font-size: 40px;
+  font-family: 'Algerian', Algerian, serif;
+  height: 100%;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.buttonItems{
+  text-decoration: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.buttonDesign{
+  opacity: 78%;
+  margin: 10px;
+  border-radius: 20px;
+}
+
+.textTutorial{
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  text-align: center;
+  margin: 10px;
+}
+.textTutorial:hover{
+  font-size: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #84e2e4;
+  transition-duration: 1s;
+  text-align: center;
+  margin: 10px;
+}
+
+.textTutorial {
+  font-size: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  transition-duration: 1s;
+  text-align: center;
+  margin: 10px;
+}
+
+
+

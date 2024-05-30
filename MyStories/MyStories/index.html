@@ -1,0 +1,122 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/stylesNav.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/StyIndex.css">
+    <!--  Js-->
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+  <script src="js/animations/animacion.js"></script>
+
+  <meta name="theme-color" content="#fafafa">
+  <!-- Add your site or application content here -->
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/subMenu.js"></script>
+
+</head>
+  <header>
+    <!-- Barra de navegación -->
+
+    <div class="navbar">
+      <img src="img/Logo.jpg" alt="Icono Principal" class="navbar-icon">
+      <a href="#" class="navbar__menu-item" data-id="1" onclick="mostrarSubmenu(this)">Home</a>
+      <a href="#" class="navbar__menu-item" data-id="3" onclick="mostrarSubmenu(this)">Crea</a>
+      <a href="pages/United1/unitedItxt.html" class="navbar__menu-item">Explora</a>
+      <p class="text-nav">¡0303!</p>
+
+      <div class="submenu" id="submenu1">
+        <!--        <hr>-->
+        <p class="submenu_text_title">United I</p>
+        <hr>
+        <a href="index.html" class="submenu-item">Item I</a>
+        <a href="#" class="submenu-item">Item II</a>
+        <a href="#" class="submenu-item">Item III</a>
+        <a href="#" class="submenu-item">Item IV</a>
+        <div class="div__icons_submenu">
+          <span class="material-icons">home</span>
+          <span class="material-icons">domain</span>
+        </div>
+
+      </div>
+      <div class="submenu" id="submenu2">
+        <a href="#" class="submenu-item">United II</a>
+        <hr>
+        <a href="#" class="submenu-item">Item II</a>
+        <a href="#" class="submenu-item">Item III</a>
+      </div>
+
+      <div class="submenu" id="submenu3">
+        <a href="#" class="submenu-item">United III</a>
+        <hr>
+        <a href="#" class="submenu-item">Item II</a>
+        <a href="#" class="submenu-item">Item III</a>
+        <a href="#" class="submenu-item">Item IV</a>
+      </div>
+
+      <div class="submenu" id="submenu4">
+        <a href="#" class="submenu-item">United IV</a>
+        <hr>
+        <a href="#" class="submenu-item">Item II</a>
+        <a href="#" class="submenu-item">Item III</a>
+        <a href="#" class="submenu-item">Item IV</a>
+      </div>
+    </div>
+  </header>
+
+<body>
+
+  <!-- Contenido de la página -->
+  <div class="principal">
+    <div class="principal-content">
+      <div class="principal-content-container">
+        <button type="submit" class="buttonDesign">
+          <a href="vistas/LasTresPlumas.html" class="buttonItems">
+            <div class="principal-content-item">
+              <div class="img-container">
+                <img id="img-opacity" src="img/Tresplumas.jpg" alt="Img icon" class="imgStories img1">
+              </div>
+              <div class="container-text">
+                <h1>Title</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda atque autem consequatur, cumque deserunt ea eius eum impedit inventore ipsum, libero modi molestiae non omnis quam quasi quos sed tempora.</p>
+              </div>
+            </div>
+          </a>
+        </button>
+        <!-- Se repite el mismo contenido de arriba con diferente informacion-->
+      </div>
+    </div>
+  </div>
+
+  <div class="animations">
+
+    <div class="fig-cuadrado" id="cuadrado"></div>
+
+  </div>
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+</body>
+
+</html>

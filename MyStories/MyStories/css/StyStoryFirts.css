@@ -1,0 +1,124 @@
+.navbar {
+  background-image: url("../img/Logo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 80%;
+  border-radius: 10px 10px 20px 20px;
+  width: 50%;
+  overflow: hidden;
+  font-size: 20px;
+  padding: 0;
+}
+
+body{
+
+  background-image: url("../img/BackGround.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.text-nav{
+  color: black;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: right;
+  margin-right: 13%;
+  border-radius: 20px;
+}
+.text-nav:hover{
+  color: honeydew;
+  font-family: 'ui-serif', Times, serif;
+  text-align: right;
+  margin-right: 13%;
+}
+.navbar-icon {
+  float: left;
+  padding: 10px;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.titleCuFirst{
+
+  position: relative;
+  font-size: 40px;
+  font-family: 'Algerian', Algerian, serif;
+}
+.positionText{
+  position: absolute;
+  top: 5%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+}
+.titleCuFirst:hover {
+
+  position: relative;
+  left: 10%;
+  transition-duration: 2s;
+  font-size: 40px;
+  color: red;
+  font-family: 'Algerian', Algerian, serif;
+}
+
+.titleCuFirst:not(:hover) {
+  position: relative;
+  left: 0;
+  transition-duration: 3s;
+  font-size: 40px;
+  color: black;
+  font-family: 'Algerian', Algerian, serif;
+}
+
+.navbar a:hover {
+  font-size: 20px;
+  margin-top: 5px;
+  transition-delay: 0.1s;
+  border-radius: 20px;
+  background-color: #ddd;
+  color: black;
+}
+
+.footer {
+  background-image: url("../img/FooterBack.jpg");
+  font-size: 20px;
+  border-radius: 15px;
+  color: white;
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer p {
+  margin-top: 10px;
+}
+.footer-me{
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+}
+.footer-me:hover{
+
+  text-decoration: none;
+  transition-duration: 1s;
+  color: #b3d4fc;
+  font-size: 30px;
+}
+
+.footer-me:not(:hover) {
+
+  text-decoration: none;
+  color: white;
+  transition-duration: 1s;
+  font-size: 25px;
+}
+
